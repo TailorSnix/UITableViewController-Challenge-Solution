@@ -14,13 +14,13 @@
 		74DD7F331942DFCB004DF447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD7F321942DFCB004DF447 /* main.m */; };
 		74DD7F371942DFCB004DF447 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD7F361942DFCB004DF447 /* RSAppDelegate.m */; };
 		74DD7F3A1942DFCB004DF447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DD7F381942DFCB004DF447 /* Main.storyboard */; };
-		74DD7F3D1942DFCB004DF447 /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD7F3C1942DFCB004DF447 /* RSViewController.m */; };
 		74DD7F3F1942DFCB004DF447 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DD7F3E1942DFCB004DF447 /* Images.xcassets */; };
 		74DD7F461942DFCB004DF447 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DD7F451942DFCB004DF447 /* XCTest.framework */; };
 		74DD7F471942DFCB004DF447 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DD7F261942DFCB004DF447 /* Foundation.framework */; };
 		74DD7F481942DFCB004DF447 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DD7F2A1942DFCB004DF447 /* UIKit.framework */; };
 		74DD7F501942DFCB004DF447 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74DD7F4E1942DFCB004DF447 /* InfoPlist.strings */; };
 		74DD7F521942DFCB004DF447 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD7F511942DFCB004DF447 /* UITableViewController_Challenge_SolutionTests.m */; };
+		74DD7F5D1942E527004DF447 /* RSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DD7F5C1942E527004DF447 /* RSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		74DD7F351942DFCB004DF447 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
 		74DD7F361942DFCB004DF447 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
 		74DD7F391942DFCB004DF447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		74DD7F3B1942DFCB004DF447 /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
-		74DD7F3C1942DFCB004DF447 /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
 		74DD7F3E1942DFCB004DF447 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74DD7F441942DFCB004DF447 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DD7F451942DFCB004DF447 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		74DD7F4D1942DFCB004DF447 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		74DD7F4F1942DFCB004DF447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74DD7F511942DFCB004DF447 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		74DD7F5B1942E527004DF447 /* RSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTableViewController.h; sourceTree = "<group>"; };
+		74DD7F5C1942E527004DF447 /* RSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				74DD7F351942DFCB004DF447 /* RSAppDelegate.h */,
 				74DD7F361942DFCB004DF447 /* RSAppDelegate.m */,
 				74DD7F381942DFCB004DF447 /* Main.storyboard */,
-				74DD7F3B1942DFCB004DF447 /* RSViewController.h */,
-				74DD7F3C1942DFCB004DF447 /* RSViewController.m */,
+				74DD7F5B1942E527004DF447 /* RSTableViewController.h */,
+				74DD7F5C1942E527004DF447 /* RSTableViewController.m */,
 				74DD7F3E1942DFCB004DF447 /* Images.xcassets */,
 				74DD7F2D1942DFCB004DF447 /* Supporting Files */,
 			);
@@ -249,9 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DD7F5D1942E527004DF447 /* RSTableViewController.m in Sources */,
 				74DD7F331942DFCB004DF447 /* main.m in Sources */,
 				74DD7F371942DFCB004DF447 /* RSAppDelegate.m in Sources */,
-				74DD7F3D1942DFCB004DF447 /* RSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +456,7 @@
 				74DD7F571942DFCB004DF447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74DD7F581942DFCB004DF447 /* Build configuration list for PBXNativeTarget "UITableViewController Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				74DD7F5A1942DFCB004DF447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
